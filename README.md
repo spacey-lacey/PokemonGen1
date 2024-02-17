@@ -1,3 +1,16 @@
+# Note
+The purpose of this fork is to build a DLL to interface with other projects using Python.NET.
+
+I really didn't want to write my own implementation of the battle system, and trying to interface with the assembly code would be a nightmare.  Luckily, this very nice one already exists!
+
+The build in this repo is targeted for .NET framework version 4.5.2, which is very obsolete.  But with a few modifications, you can use a modern .NET SDK (like .NET 8.0, which is the version I used).
+
+See [INSTALL.md](INSTALL.md) for detailed instructions on how to do that.
+
+Below is the original README text.
+
+---
+
 # Summary
 A console, text-based simulator of the Pokemon
 Generation 1 battle system. Using an exhaustive
