@@ -303,11 +303,10 @@ namespace PokemonGeneration1.Source.PokemonData
             Stats statExp;
             string nickname;
 
-            private Builder() { }
-
-            public static Builder Init(int number, float level)
+            public Builder(int number, float level)
             {
-                return new Builder() { number = number, level = level };
+                this.number = number;
+                this.level = level;
             }
 
             public Builder Status(Status status)
